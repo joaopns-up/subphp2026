@@ -35,7 +35,7 @@ class Database {
               telefone varchar(20) NOT NULL,
               duracao int NOT NULL,
               local varchar(200) NOT NULL,
-              tipoEvento varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+              tipoEvento varchar(100) NOT NULL,
               impresso tinyint(1) NOT NULL,
               qtdeFotos int NOT NULL,
               observacoes text NOT NULL,
